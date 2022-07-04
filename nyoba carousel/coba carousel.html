@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      #searchh {
+        border: none;
+        border-radius: 25px 25px 25px 25px;
+      }
+      .navbar {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      li {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .flexContainer {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 25px 25px 25px 25px;
+        height: 30px;
+        border: none;
+        vertical-align: middle;
+      }
+      .form-control {
+        flex-grow: 2;
+        background: none;
+        border: none;
+      }
+      .form-control:focus {
+        outline: none;
+      }
+      #searchButton {
+        border: none;
+        background: none;
+        color: currentColor;
+        font-size: 10px;
+        border-radius: 25px 25px 25px 25px;
+      }
+      .jumbotron {
+        background: #cc8605;
+        background-size: cover;
+        padding-right: 0px;
+        color: white;
+      }
+      .jumbotron img {
+        padding-left: 15px;
+      }
+      footer {
+        position: absolute;
+        top: 100%;
+        bottom: 0px;
+      }
+      #kontol {
+        min-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid p-0" id="kontol">
+      <header>
+        <div class="container-fluid fixed-top p-0">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning fw-bold shadow strong text-uppercase">
+            <div class="container-fluid">
+              <a href="#" class="navbar-brand p-0">
+                <img src="/images/Group 7.png" alt="logo amikom" width="150" height="auto" class="logo d-inline-block align-top p-0" />
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon ms-auto"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-left">
+                  <li>
+                    <a class="nav-link" href="bismillah homepage.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Artikel </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="budaya.html">Budaya</a></li>
+                      <li><a class="dropdown-item" href="#">Pariwisata</a></li>
+                      <li><a class="dropdown-item" href="Kuliner.html">Kuliner</a></li>
+                      <li><a class="dropdown-item" href="#">Pendidikan</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li>
+                    <div class="flexContainer">
+                      <input class="form-control me-2" type="search" placeholder="Search" id="searchh" aria-label="Search" />
+                      <button type="button" class="btn btn-light" id="searchButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search mx-0 my-0" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- <div class="container-fluid"> -->
+      <main>
+        <section>
+          <div class="jumbotron jumbotron-fluid text-center p-5">
+            <div class="row pb-5">
+              <div class="col ps-5 my-5 mb-0">
+                <h1 class="display-4 fw-bold my-3" id="budaya">10 Budaya di Daerah Istimewa Yogyakarta</h1>
+                <p class="kebudayaan" id="kebudayaan">kebudayaan di Daerah Istimewa Yogyakarta yang masih kental</p>
+                <p class="tag">by Admin || Juni 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="my-5 text-start ps-5">
+                <p class="fw-bold">
+                  Kata budaya itu sendiri adalah suatu bahasa yang berasal dari dua bahasa yakni sansekerta, dan Inggris. Menurut bahasa sansekerta kata budaya berarti buddhayah yang artinya bentuk jamak dari kata buddhi yang berarti budi
+                  atau akal. Sedangkan menurut bahasa Inggris budaya dikenal dengan kata culture yang berasal dari bahasa latin yaitu colere yang memiliki arti yaitu mengolah atau mengerjakan. Budaya merupakan pola atau cara hidup yang
+                  berkembang oleh sekelompok orang, kemudian diturunkan pada generasi selanjutnya. Berikut kami rangkum semua rekomendasi kuliner baik makanan dan minuman yang patut anda coba saat berkunjung di Yogyakarta.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slider card -->
+        <div class="container">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card" style="width: 18rem;">
+  <img src="images/antup.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="card" style="width: 18rem;">
+  <img src="images/Bali_room.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="card" style="width: 18rem;">
+  <img src="images/benteng.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </div
+        <!-- End of Slider Card -->
+        <!-- <section id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner"> -->
+        <!-- <div class="container-fluid ps-5 border pe-5"> -->
+        <!-- <div class="container ps-5 pe-5 my-3 border w-50">
+              <div class="carousel-item" id="kartu">
+                <img src="/images/mbah bregas.png" class="card" alt="..." />
+                <div class="card-body">
+                  <p class="card-text-start ps-5">Kontol</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#kartu" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#kartu" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div> -->
+        <!-- </div> -->
+        <!-- </div>
+        </section> -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/antup.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/images/benteng.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/images/dadung awuk.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button type="button" class="bg-info">kontol</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </main>
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col"></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#kontol" aria-controls="kontol" aria-expanded="false" aria-label="Toggle navigation">hehe</button>
+            <div class="collapse" id="kontol">
+              <div class="well">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas reiciendis sed rem ipsam quidem, fugit sequi quis rerum voluptate pariatur neque quasi deserunt quia reprehenderit aspernatur expedita in! Numquam, tenetur.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- </div> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
